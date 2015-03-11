@@ -1,0 +1,23 @@
+//Software Documentacion
+https://devcenter.heroku.com/articles/getting-started-with-php#introduction
+https://toolbelt.heroku.com/
+http://rogerdudler.github.io/git-guide/index.es.html
+https://devcenter.heroku.com/
+
+//Heroku & Laravel
+https://mattstauffer.co/blog/installing-a-laravel-app-on-heroku
+https://mattstauffer.co/blog/laravel-on-heroku-using-a-mysql-database
+https://devcenter.heroku.com/articles/renaming-apps
+http://www.easylaravelbook.com/blog/2015/01/31/deploying-a-laravel-application-to-heroku/
+
+//Laravel
+//Instalaciones
+http://codehero.co/page/2/?s=laravel+4
+http://codehero.co/laravel-4-desde-cero-instalacion-configuracion/
+
+http://stackoverflow.com/questions/16871413/safely-remove-migration-in-laravel-4
+http://cheats.jesse-obrien.ca/
+//Migraciones
+http://www.cristalab.com/tutoriales/configurar-base-de-datos-y-crear-tablas-con-laravel-c111394l/
+http://uno-de-piera.com/migraciones-con-laravel/
+http://fernando-gaitan.com.ar/laravel-parte-4-migraciones/

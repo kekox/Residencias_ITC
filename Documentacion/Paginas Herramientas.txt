@@ -1,0 +1,6 @@
+https://www.iconfinder.com/		//Buscar iconos para el diseño web
+http://es.phixr.com/			//Editar fotos online
+http://fortawesome.github.io/Font-Awesome/	//Glyphicons nuevos
+http://testsize.com/			//Para probar lo responsivo
+https://id.heroku.com/login		//dashboard heroku
+http://rogerdudler.github.io/git-guide/index.es.html	//Guia sencilla de Git

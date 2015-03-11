@@ -1,0 +1,49 @@
+..:: Heroku & Laravel ::..
+Instalar laravel en Heroku
+
+	composer create-project laravel/laravel Nombredelappaqui 4.2  	//Creando un proyecto de laravel
+
+-Remove composer.lock from .gitignore 					//esta en el directorio que se creo anteriormente
+
+	composer install						//Se actualiza el composer
+
+-Creando el fichero con el nombre Procfile (la mayuscula si importa , y se crea despues del comando composer install NO ANTES.)
+
+	web: vendor/bin/heroku-php-apache2 public/ 			//esto es lo que lleva adentro el archivo Procfile
+
+	git init  							//Se inicializa el repositorio
+	git add .  							//Se agregan todos los archivos del directorio
+	git commit -m "Un mensaje aqui" 				//Se hace el Commmit
+	heroku create 							//se crea un repositorio remoto con el nombre heroku
+	heroku push heroku master					//se suben los archivos a heroku
+	open heroku							//Muestra la aplicacion en el navegador desplegada
+	heroku apps:rename newname					//se le cambia el nombre a la app por uno cualquiera
+
+
+					---Listo ya se hizo una app de laravel y desplegada en heroku---
+	
+-Agregando Mysql a Laravel 
+
+	heroku addons:add cleardb:ignite				//Se crea una BD mysql gratuitos
+	heroku config							//Nos da las credenciales de la BD CLEARDB_DATABASE_URL
+
+-Agregando tablas a Mysql 
+
+	php artisan migrate:make create_users_table --create=users 	//Se crea una migracion en la app en la carpeta database
+
+-Se modifica el archivo database.php
+	
+	Revisar el archivo 2- Heroku&Laravel&Mysql Credentials.txt
+
+-Se realiza un commit para agregar los nuevos archivos modificados
+	
+	git add .							//Se inicializa el repositorio
+	git commit -m "Mensaje"						//Se agregan todos los archivos del directorio
+	git push heroku master						//Se hace el Commmit
+
+-Migracion de la tabla remota
+
+	heroku run php /app/artisan migrate				//Se migra la tabla
+
+	
+	 

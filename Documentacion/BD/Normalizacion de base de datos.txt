@@ -1,0 +1,5 @@
+Normalizacion de base de datos
+
+http://es.slideshare.net/W4L73R/bases-de-datos-acid-reglas-de-codd-e-integridad-de-datos
+http://es.wikipedia.org/wiki/Normalizaci%C3%B3n_de_bases_de_datos
+http://support.microsoft.com/kb/283878/es

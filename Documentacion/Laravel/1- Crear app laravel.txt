@@ -1,0 +1,11 @@
+Comando	
+c:/xampp/htdocs/
+
+	composer create-project laravel/laravel Nombredelappaqui 4.2
+
+Tip:
+
+1- Crear un virtualhost para no tener que poner toda la direccion en la barra de direcciones
+	eso se hace en vhost
+
+2- en el archivo host agregarlo para que la direccion surta efecto

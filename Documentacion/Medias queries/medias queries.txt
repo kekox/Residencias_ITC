@@ -1,0 +1,10 @@
+http://getbootstrap.com/css/#helper-classes-show-hide
+http://www.w3schools.com/cssref/css3_pr_mediaquery.asp
+http://stackoverflow.com/questions/18424798/twitter-bootstrap-3-how-to-use-media-queries
+
+
+		<span class="visible-xs">SIZE XS</span>
+                <span class="visible-sm">SIZE SM</span>
+                <span class="visible-md">SIZE MD</span>
+                <span class="visible-lg">SIZE LG</span>
+
