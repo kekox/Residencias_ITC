@@ -17,7 +17,16 @@ http://codehero.co/laravel-4-desde-cero-instalacion-configuracion/
 
 http://stackoverflow.com/questions/16871413/safely-remove-migration-in-laravel-4
 http://cheats.jesse-obrien.ca/
-//Migraciones
+
+//Laravel (Migraciones)
 http://www.cristalab.com/tutoriales/configurar-base-de-datos-y-crear-tablas-con-laravel-c111394l/
 http://uno-de-piera.com/migraciones-con-laravel/
 http://fernando-gaitan.com.ar/laravel-parte-4-migraciones/
+
+//Laravel (Enviar Correos)
+http://culttt.com/2013/09/23/password-reminders-reset-laravel-4/
+
+//MagicDraw
+http://www.academia.edu/7582949/EXPERIENCIA_DE_DESARROLLO_DE_UNA_APLICACI%C3%93N_WEB_UTILIZANDO_LA_METODOLOG%C3%8DA_UWE_Y_EL_LENGUAJE_QVT_EN_LA_TRANSFORMACI%C3%93N_DE_MODELOS
+https://www.youtube.com/watch?v=49whtRzXFzg
+http://uwe.pst.ifi.lmu.de/teachingTutorialNavigationSpanish.html

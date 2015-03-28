@@ -4,7 +4,7 @@ Crear tablas en laravel y migrarlas a la BD
 -Nos ponemos en el directorio del proyecto... c:/xampp/htdocs/app <- ejemplo
 
 	php artisan migrate:install  			//Se crea una tabla en la bd llamada migrate que nos servira para las migraciones
-	php artisan migrate:make create_user_table	//Crea un archivo localizado en la app/database/migrations/ con el nombre dado
+	php artisan migrate:make create_users_table	//Crea un archivo localizado en la app/database/migrations/ con el nombre dado
 
 	php artisan migrate				//Se Migra la tabla ala BD
 	php artisan migrate:rollback			//Se elimina la tabla recien emigrada
